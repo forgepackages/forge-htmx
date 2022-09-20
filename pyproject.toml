@@ -5,7 +5,7 @@ packages = [
     { include = "forgehtmx" },
 ]
 
-version = "0.1.0"
+version = "0.0.0"
 description = "HTMX integration for Forge"
 authors = ["Dave Gaeddert <dave.gaeddert@dropseed.dev>"]
 license = "MIT"
@@ -27,6 +27,7 @@ python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.2"
+pytest-django = "^4.5.2"
 ipdb = "^0.13.9"
 Django = "^4.0.5"
 black = "^22.8.0"
