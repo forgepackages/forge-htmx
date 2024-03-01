@@ -24,7 +24,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytest = "^8.0.0"
+pytest = "^8.0.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest-django = "^4.5.2"
